@@ -1,0 +1,21 @@
+.logo{
+    flex: content;
+    display: flex;
+    background-color: chartreuse;
+}
+.searchbox{
+    color:white;
+    background-color: red;
+    text-align: right;
+}
+
+body{
+    width: 100%;
+    padding: 40px;
+    background-color: rgb(250, 179, 128);
+    color: brown;
+    
+    
+
+    
+}
