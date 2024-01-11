@@ -13,9 +13,117 @@ body{
     width: 100%;
     padding: 40px;
     background-color: rgb(250, 179, 128);
-    color: brown;
+    color: brown;}
+    header{
+        background-color:bisque ;
+        color: blueviolet; 
+        text-align:center;
+        padding: 10px;
+        display: flex;
+       /* justify-content: space-between;*/
+        
+        }  
     
+        .menu li{
+            background-color: blanchedalmond;
+        }
+        .navbar ul{
+            list-style: none;
+        }
+        .navbar li{
+            display: inline;
+            margin: 5px;
+            border: 1px solid white;
+            border-radius: 30px;
+            padding: 5px;
+        }
+        .navbar a{
+            text-decoration: 30px;
+            color: yellowgreen;
+        }
+        .about {
+        padding: 20px;
+        border-radius: 12px;
+        background-color:violet;
+        margin: 21px;
+        
+        }
+        .about p{
+            font-size: larger;
+            font-style: italic;
+        }
+        .menu{
+            background-image: url(Screenshot_20231215-160530.jpg);
+            color: azure;
+        
+        }
+        .menu li:hover{
+            background: fixed;
+         padding: 20px;
+         margin: 20px;
+        border-radius: 7px;
+        line-height:none ;
+        border-color: chocolate;
+        }
+        .reservation{
+            background-color: burlywood;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 30px;
+            border: 1px solid white;
+            background-color: aquamarine;
+            background-color: chartreuse;
+        }
+        .reservation h2{
+            color: bisque;
+        }
+        .reservation label{
+            color: brown;
+            font-weight: bold;
+            font-size: large;
+        }
+        .reservation input{
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        button{
+            background-color:black;
+            color: blue;
+            text-align: end;
+            padding: 10px;
+            border: 10px;
+        }
+        button:hover{
+        background-color: brown;
+        }
+        .how-Did{
+            background-color: rgb(2, 14, 14);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 20px;
+        }
+        .how-Did h2{
+            color: chocolate;
+        }
+        .how-Did label{
+            font-weight: 100%;
+            font-size: large;
+        }
+        .how-Did select{
+            width: 10px;
+        }
+        .how-Did textarea{
+            width: 100%;
+            padding: 5px;
+        }
+        footer{
+            background-color:black;
+            text-align:center;
+            color: azure;
+            font-size: large;
+            font-weight: bolder;
+            padding: 10px;
+        }
+        
     
-
-    
-}
